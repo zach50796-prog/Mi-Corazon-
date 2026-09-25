@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Corazon ❤️</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" aria-hidden="true"></div>
+
+  <main class="page">
+    <section class="intro" id="intro">
+      <div class="small-heart">♥</div>
+      <p class="eyebrow">A little something for you...</p>
+      <h1>Mi Corazon</h1>
+      <p class="subtitle">For the woman who has my heart ❤️</p>
+
+      <div class="envelope-wrap">
+        <div class="envelope">
+          <div class="envelope-back"></div>
+          <div class="letter-preview">
+            <span>My love...</span>
+          </div>
+          <div class="flap"></div>
+          <div class="envelope-front"></div>
+          <div class="seal">♥</div>
+        </div>
+      </div>
+
+      <button class="open-btn" id="openBtn">Open My Letter ❤️</button>
+      <p class="hint">Tap the button when you're ready...</p>
+    </section>
+
+    <section class="letter-section" id="letterSection">
+      <div class="photo-frame">
+        <img src="our-photo.jpg" alt="A photo of us">
+      </div>
+
+      <article class="letter">
+        <p class="greeting">My love,</p>
+
+        <p>
+          I love you so much. My heart chooses you every morning,
+          and every day I find another reason to be grateful that I met you.
+        </p>
+
+        <p>
+          I don't regret meeting you—not even for a moment—because choosing
+          you has been one of the best decisions I have ever made in my life.
+          You have brought a kind of love into my life that I never want to take
+          for granted.
+        </p>
+
+        <p>
+          No matter how many tomorrows come, I want you to know that my heart
+          will keep finding its way back to you. I will choose you today,
+          tomorrow, and forever. ❤️
+        </p>
+
+        <p>
+          Thank you for being you, for the moments we share, for the love you
+          give me, and for making my world a little more beautiful just by
+          being in it.
+        </p>
+
+        <p class="closing">Forever yours,</p>
+        <p class="signature">Zackie ❤️</p>
+      </article>
+
+      <button class="music-btn" id="musicBtn" aria-label="Play or pause music">
+        ♪ <span>Play our song</span>
+      </button>
+
+      <!-- Put your legally obtained copy of "Perfect" by Ed Sheeran in this folder
+           and name it perfect.mp3. The button above will then play it. -->
+      <audio id="song" preload="none">
+        <source src="perfect.mp3" type="audio/mpeg">
+      </audio>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
